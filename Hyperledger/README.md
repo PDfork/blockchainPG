@@ -14,7 +14,7 @@ $ tar -xvf curl-7.52.1.tar.gz
 
 $ cd curl-7*
 
-$ ./configure
+$ ./configure --with-ssl
 
 $ make
 
