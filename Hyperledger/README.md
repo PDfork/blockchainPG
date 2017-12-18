@@ -66,6 +66,7 @@ $ snap install --classic go
 ```
 $ go version
 ```
+the newest is 1.9.2
 
 #### Step 3: set the correct gopath
 
