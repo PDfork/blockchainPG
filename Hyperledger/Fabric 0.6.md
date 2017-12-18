@@ -33,7 +33,7 @@ we need to comment some lines to let the file run locally:
 $ gedit 4-peers-with-membersrvc-explorer.yml
 ```
 
-then make the end of the file look like this and save it:
+then make the end of the file look like this and save it: 
 
 ```
 networks:
