@@ -9,6 +9,7 @@ The following are prerequisites for installing the required development tools:
     git: 2.9.x or higher
     Python: 2.7.x
     A code editor of your choice, we recommend VSCode.
+    Go 1.9+ installation
 ### One: Curl
 
 #### Step 1：check which version is the latest
