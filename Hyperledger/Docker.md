@@ -62,5 +62,5 @@
 
 #### •  CreaAng and using images is only part of the story
 
-####•  Sharing them is the other
+#### •  Sharing them is the other
 
