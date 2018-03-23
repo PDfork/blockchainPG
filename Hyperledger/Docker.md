@@ -22,9 +22,9 @@
 
 ![](https://ws3.sinaimg.cn/large/006tNc79gy1fmh0vhi5lmj31dk0nytcq.jpg)
 
-####•  A group of processes run in isolaAon
+#### •  A group of processes run in isolaAon
 
-####•  Each container has its own set of "namespaces" (isolated view)
+#### •  Each container has its own set of "namespaces" (isolated view)
 
 ​    •  PID -­‐ process IDs
 
