@@ -6,7 +6,7 @@
 
 
 
-#####•  Containers
+##### •  Containers
 
 ##### •  Docker Engine
 
@@ -14,17 +14,17 @@
 
 ##### •  Docker Client
 
-#####•  Docker Registry
+##### •  Docker Registry
 
 
 
-#### 1.  Containers
+### 1.  Containers
 
 ![](https://ws3.sinaimg.cn/large/006tNc79gy1fmh0vhi5lmj31dk0nytcq.jpg)
 
-#####•  A group of processes run in isolaAon
+####•  A group of processes run in isolaAon
 
-#####•  Each container has its own set of "namespaces" (isolated view)
+####•  Each container has its own set of "namespaces" (isolated view)
 
 ​    •  PID -­‐ process IDs
 
@@ -40,27 +40,27 @@
 
 ​    •  cgroups -­‐ controls limits and monitoring of resources
 
-##### •  Docker gives it its own root ﬁlesystem
+#### •  Docker gives it its own root ﬁlesystem
 
-#### 2.Docker Images
+### 2.Docker Images
 
 ![](https://ws2.sinaimg.cn/large/006tNc79gy1fmh109i0r5j30f00geq4m.jpg)
 
-##### •  Tar ﬁle containing a container's ﬁlesystem + metadata
+#### •  Tar ﬁle containing a container's ﬁlesystem + metadata
 
-##### •  For sharing and redistribuAon
+#### •  For sharing and redistribuAon
 
 ​      •  Global/public registry for sharing: DockerHub
 
-##### •  Similar, in concept, to a VM image
+#### •  Similar, in concept, to a VM image
 
 
 
-#### 3. Docker Registry
+### 3. Docker Registry
 
 ![](https://ws1.sinaimg.cn/large/006tNc79gy1fmh14rpsmnj30oe0hytbb.jpg)
 
-##### •  CreaAng and using images is only part of the story
+#### •  CreaAng and using images is only part of the story
 
-#####•  Sharing them is the other
+####•  Sharing them is the other
 
