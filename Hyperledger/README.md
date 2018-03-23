@@ -117,7 +117,7 @@ $ npm -v
 
 ### Five: Get started
 
-[Fabric Official Website](https://hyperledger-fabric.readthedocs.io/en/release/samples.html#binaries)
+[Fabric Official Website](https://hyperledger-fabric.readthedocs.io/en/release-1.1/)
 
 
 
