@@ -4,13 +4,13 @@
 
 Before we get known of Fabric 1.0, we need to understand Fabric 0.6 which is a stable version.
 
-![Fabric main parts](https://ws2.sinaimg.cn/large/006tKfTcgy1fmd8vtbae0j30ki0cawet.jpg)
+![Fabric main parts](https://github.com/PDfork/blockchainPG/blob/master/Hyperledger/Fabric/Img/Fabric1.jpeg)
 
 
 
 When you run Fabric 0.6, the architecture is :
 
-![Favric 0.6 architecture](https://ws4.sinaimg.cn/large/006tNc79gy1fmdez0utojj30db0ccdg0.jpg)
+![Favric 0.6 architecture](https://github.com/PDfork/blockchainPG/blob/master/Hyperledger/Fabric/Img/Fabric2.jpeg)
 
 The architecture is `application`-`membership`-`peer`, the triangle relationships. The main affairs focus on Peers. 
 
@@ -20,7 +20,7 @@ The architecture is `application`-`membership`-`peer`, the triangle relationship
 
 But here comes our problem: Peer affords too many functions, so we improve the architecture into Fabric 1.0 as follows:
 
-![Fabric 1.0 architecture](https://ws2.sinaimg.cn/large/006tNc79gy1fmdf5lf5j0j30n30aiwey.jpg)
+![Fabric 1.0 architecture](https://github.com/PDfork/blockchainPG/blob/master/Hyperledger/Fabric/Img/Fabric3.jpeg)
 
 Consensus has been taken out of Peers, and been set into an isolated node `orderer`. Based on the new architecture, Fabric 1.0 also has channels. 
 
@@ -30,13 +30,13 @@ Fabric 1.0 supports multi-chaincode and multi-channels.
 
 A `peer` can join different chains through different channels as follows:
 
-![cMulti-channels & Multi-chains](https://ws1.sinaimg.cn/large/006tNc79gy1fmdfznp3rfj30mr0csq3a.jpg)
+![cMulti-channels & Multi-chains](https://github.com/PDfork/blockchainPG/blob/master/Hyperledger/Fabric/Img/Fabric4.jpeg)
 
 About channels: 
 
 Just like the Publish-Subscribe topic, `peer` and `orderer`(Consensus service) get together and that also get `channels` , `ledger` and `worldstate` together, picuture as follows:
 
-![](https://ws4.sinaimg.cn/large/006tNc79gy1fmdgqw35g5j30pm0m4acq.jpg)
+![](https://github.com/PDfork/blockchainPG/blob/master/Hyperledger/Fabric/Img/Fabric5.png)
 
 `channel1`: `peer1`, `peer2`, `peer3`
 
@@ -46,7 +46,7 @@ Just like the Publish-Subscribe topic, `peer` and `orderer`(Consensus service) g
 
 ##### Transaction Process
 
-![](https://ws1.sinaimg.cn/large/006tNc79gy1fmdgz7wm5yj30m908f0ss.jpg)
+![](https://github.com/PDfork/blockchainPG/blob/master/Hyperledger/Fabric/Img/Fabric6.jpeg)
 
  1.`Application/SDK` asks `peers`  for Endorse
 
@@ -60,7 +60,7 @@ Just like the Publish-Subscribe topic, `peer` and `orderer`(Consensus service) g
 
    ​
 
-   ![](https://ws3.sinaimg.cn/large/006tNc79gy1fmdhiax9fjj31310m1gm6.jpg)
+   ![](https://github.com/PDfork/blockchainPG/blob/master/Hyperledger/Fabric/Img/Fabric7.jpeg)
 
     
 
