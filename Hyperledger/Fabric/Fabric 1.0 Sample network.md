@@ -4,7 +4,7 @@
 
 the structure is as follows:
 
-![Structure of basic network](https://ws2.sinaimg.cn/large/006tKfTcgy1fmd8yqtdowj3198112gqp.jpg)
+![Structure of basic network](https://github.com/PDfork/blockchainPG/blob/master/Hyperledger/Fabric/Img/Fabric%201.0%20structure.jpeg)
 
 #### Step1: Copy the Fabric Sample file to your computer
 
